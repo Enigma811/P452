@@ -1,0 +1,16 @@
+Root(s) of nonlinear function (Tolerance 10^-4)
+
+
+exp(-x) - x = 0
+
+Fixted point function: exp(-x)
+
+Input       Result     No. of iterations
+
+
+1           0.56719       16
+
+0           0.56719       17
+
+-1          0.56718       19
+

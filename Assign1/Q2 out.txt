@@ -1,0 +1,15 @@
+Numerical  Integration
+
+Method            Result          N
+
+
+Gauss. quad     1.089424         3
+
+Simpson         1.089429         10
+
+Simpson         1.089429         20
+
+Simpson         1.089429         30
+
+Simpson         1.089429         40
+

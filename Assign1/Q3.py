@@ -88,3 +88,25 @@ plt.ylabel("y")
 plt.title("Q3: Solving ODE using RK 4")
 plt.savefig("Q3 Step size = 0.01.png")
 
+#file print module
+fout = open(r"C:\Main\Study\Sem 5\P346 Computational Phy Lab\Code\A1\Q3 out.txt", "w")
+fout.writelines("Solution of ODE using RK4 method\n\n" +"\ny' = (5x**2 - y)/(exp(x+y))\n\n")
+fout.close()
+fout = open(r"C:\Main\Study\Sem 5\P346 Computational Phy Lab\Code\A1\Q3 out.txt", "a")
+fout.writelines("\n\n")
+fout.writelines("Step sixe = 0.5\n(x,y)\n")
+fout.writelines(str(x1)+str(y1))
+
+fout.writelines("\n\n")
+fout.writelines("Step sixe = 0.2\n(x,y)\n")
+fout.writelines(str(x2)+str(y2))
+
+fout.writelines("\n\n")
+fout.writelines("Step sixe = 0.05\n(x,y)\n")
+fout.writelines(str(x3)+str(y3))
+
+fout.writelines("\n\n")
+fout.writelines("Step sixe = 0.01\n(x,y)\n")
+fout.writelines(str(x4)+str(y4))
+fout.close()
+

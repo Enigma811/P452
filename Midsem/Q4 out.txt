@@ -1,0 +1,7 @@
+Solution by Midpoint Integration (Precision - 10^(-4))
+
+Given, Length of rod = 2 m
+Linear mass density = x^2
+Assume that the left end of rod is kept at the origin.
+
+Center of Mass = 1.50004 m

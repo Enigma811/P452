@@ -40,3 +40,4 @@ Newton Raphson :     2.62314   2.0
 The function has multiple roots.
 As observed, Newton Raphson converges to a root very quickly.
 Also, different initial guesses for Newton Raphson may lead to different roots.
+Initial guess of 2.5 leads to the root identified using the Regula Falsi method. Other guesses lead to different roots.

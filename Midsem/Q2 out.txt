@@ -1,0 +1,15 @@
+1-D Heat conduction (d^2T/dx^2 + alpha*(T_a - T) = 0): Shooting Method (RK4)
+
+Precision: 10^-4
+
+Boundary Values:
+T(0) = 40, T(10) = 200
+
+Assume that the left end of the rod is kept at origin.
+Length of rod = 10m
+
+Initial guess for dT/dx: Random
+
+Number of revisions to achieve given precision: 6
+
+Estimated position at which T(x) = 100: 4.43579 m

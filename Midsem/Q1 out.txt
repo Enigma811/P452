@@ -1,0 +1,42 @@
+Root(s) of nonlinear function (Tolerance 10^-6)
+
+
+f(x) = log(x/2) - sin(5x/2)
+
+Method         Result     No. of iterations
+
+Intial Bracket: (1.5,2.5)
+
+Bisection :     2.25   1.0
+Bisection :     2.75   2.0
+Bisection :     2.5812323   3.0
+Bisection :     2.5622274   4.0
+Bisection :     2.5615881   5.0
+Bisection :     2.5615707   6.0
+Bisection :     2.6231408   7.0
+
+
+
+
+Intial Guess: 1
+
+Newton Raphson :     1.4301299   1.0
+Newton Raphson :     1.4015296   2.0
+Newton Raphson :     1.4019299   3.0
+
+
+Intial Guess: 1.5
+
+Newton Raphson :     1.3955583   1.0
+Newton Raphson :     1.4019123   2.0
+Newton Raphson :     1.4019299   3.0
+
+
+Intial Guess: 2.5
+
+Newton Raphson :     2.6221385   1.0
+Newton Raphson :     2.62314   2.0
+
+The function has multiple roots.
+As observed, Newton Raphson converges to a root very quickly.
+Also, different initial guesses for Newton Raphson may lead to different roots.

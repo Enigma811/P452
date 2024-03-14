@@ -1,0 +1,3 @@
+
+Solution by Conjugate Gradient Method
+Solution: Error: input 'a' is not symmetric

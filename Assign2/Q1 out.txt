@@ -1,0 +1,7 @@
+
+Solution by Cholesky decomposition
+Solution: [1.0, 0.9999999999999999, 1.0, 1.0, 1.0, 1.0]
+
+Solution by Gauss Seidel (Precision: 10^-6)
+Number of iterations: 15
+Solution: [0.9999997530614102, 0.9999997892247294, 0.9999999100460266, 0.9999998509593769, 0.9999998727858708, 0.9999999457079743]

@@ -64,7 +64,8 @@ pos = np.linspace(0, n_particles + 2, num=n_particles + 2)
 plt.title('Start position of particles')
 plt.axis([0, n_particles + 2, -amplitude * 1.1, amplitude * 1.1])
 plt.plot(pos, x, 'ro')
-plt.show()
+# plt.show()
+plt.close()
 
 
 # CALCULATING x, total energy and mode energy
@@ -119,7 +120,7 @@ for d in data['x'][0:1000]:
     im_particle.append(plt.plot(pos, d, 'ro'))
 print('done')
 
-im_ani = animation.ArtistAnimation(fig, im_particle, interval=20, repeat_delay=3000, blit=True)
+im_ani = animation.ArtistAnimation(fig, im_particle, interval=20, repeat_delay=3000, blit=True,)
 
 # You can now choose between a live animation or if your animation is directly saved to a mp4 file.
 # Only one option is possible at the same time. So uncomment and recomment accordingly.
@@ -127,17 +128,19 @@ im_ani = animation.ArtistAnimation(fig, im_particle, interval=20, repeat_delay=3
 ##  Show animation live:
 ### uncomment following statement and recomment those below:
 
-plt.show()
+# plt.show()
 
 ##  End of animation
 
 ##  Save as mp4-file:
 ### uncomment following statements and recomment those above:
 
-#print('Creating mp4 file...')
-# im_ani.save('im_a' + str(alpha) + '_b' + str(beta) + '_str(init_mode).mp4', writer='avconv')
-# plt.close()
-#print('done')
+print('Creating mp4 file...')
+f = r"C:\Main\Study\Sem 5\P346 Computational Phy Lab\Code"+"\imt \u03B1 = " + str(alpha) + ", \u03B2 = " + str(beta) + ", N = " + str(n_particles) + ".gif" 
+writergif = animation.PillowWriter(fps=30) 
+im_ani.save(f, writer=writergif)
+plt.close()
+print('done')
 
 ##  End of mp4-file
 
@@ -150,7 +153,8 @@ plt.axis([0, t_max, 0, np.max(data['total_energy']) * 1.2])
 plt.xlabel('Time t in a.u.')
 plt.ylabel('Energy E in a.u.')
 plt.title('Total energy')
-plt.show()
+# plt.show()
+plt.close()
 
 plt.figure(figsize=(10, 8))
 plt.plot(data['time'], data['mode1'], 'r', label='Mode 1')
@@ -159,4 +163,5 @@ plt.xlabel('Time t in a.u.')
 plt.ylabel('Energy E in a.u.')
 plt.title('Mode energy')
 plt.legend()
-plt.show()
+# plt.show()
+plt.close()

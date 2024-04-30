@@ -96,6 +96,9 @@ The corresponding eigenvector is:
 The number of iterations taken to obtain given precision = 4
 
 The initial test vector is: Random
+
+
+
 1th Eigenvalue
 Numerical: 3.731662709605247
 Analytical: 3.7320508075688776

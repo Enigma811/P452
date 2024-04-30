@@ -35,6 +35,7 @@ print("\nThe corresponding eigenvector is:\n")
 for i in range(len(evec[0])):print(str(evec[1][i])+"\n")
 print("\nThe number of iterations taken to obtain given precision = "+str(eval[1][0]))
 print("\nThe initial test vector is: "+str(eval[0][2]))
+print("\n\n")
 
 van = [0]*2
 for i in range(2): van[i]=[0]*len(evec[0])
